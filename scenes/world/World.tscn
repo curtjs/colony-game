@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4cenjbdwridu"]
+
+[ext_resource type="Script" uid="uid://cpkd2mgvsm1nk" path="res://scenes/world/World.cs" id="1_5qbjp"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_5qbjp")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "World"
+
+[node name="Players" type="Node" parent="."]
+
+[node name="PlayerSpawner" type="MultiplayerSpawner" parent="Players"]
+_spawnable_scenes = PackedStringArray("")
+spawn_path = NodePath("..")

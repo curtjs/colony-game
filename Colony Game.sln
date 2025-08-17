@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colony Game", "Colony Game.csproj", "{9F309B4C-75AA-468B-BA7F-91218F79B23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{9F309B4C-75AA-468B-BA7F-91218F79B23E}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

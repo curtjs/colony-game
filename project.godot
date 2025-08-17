@@ -11,9 +11,18 @@ config_version=5
 [application]
 
 config/name="Colony Game"
-config/features=PackedStringArray("4.4", "Forward Plus")
+run/main_scene="uid://bhsokcfkg0ohh"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+NetworkManager="*res://scripts/managers/NetworkManager.gd"
 
 [dotnet]
 
 project/assembly_name="Colony Game"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/nodetunnel/plugin.cfg")
