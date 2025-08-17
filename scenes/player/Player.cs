@@ -13,11 +13,11 @@ public partial class Player : CharacterBody2D {
         // Only process input for the player we control
         if (!IsMultiplayerAuthority()) return;
 
-        HandleMovement(delta);
+        HandleMovement();
     }
 
-    private void HandleMovement(double delta) {
-        Vector2 inputDir = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+    private void HandleMovement() {
+        var inputDir = Input.GetVector("move_left", "move_right", "move_up", "move_down");
     
         Velocity = inputDir * Speed;
 
