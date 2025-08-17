@@ -15,7 +15,7 @@ public partial class Main : Node {
     private void StartGame() {
         GD.Print("Starting Game");
         
-        _world.Show();
+        _world.Start();
         _ui.Hide();
     }
 }
